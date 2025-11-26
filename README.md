@@ -1,0 +1,1 @@
+Ces fichiers sont mes entrainements sur l'apprentissage par renforcement, le plus complet à ce jour est celui sur lunar lander sur lequel j'ai implémenté un double Q network avec du dueling et du prioritized experience replay pour lequel j'ai du implementer une structure de sumtree.
