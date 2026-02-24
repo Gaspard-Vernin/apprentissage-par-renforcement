@@ -9,28 +9,7 @@ env = gym.make("Taxi-v3")
 state,_=env.reset()
 decoded = tuple(env.unwrapped.decode(state))
 #taxi_row, taxi_col, passenger_idx, destination_idx = env.decode(state)
-"""Passenger locations:
 
-    0: Red
-
-    1: Green
-
-    2: Yellow
-
-    3: Blue
-
-    4: In taxi
-    Destinations:
-
-    0: Red
-
-    1: Green
-
-    2: Yellow
-
-    3: Blue
-
-"""
 Q_table=np.random.uniform(low=-1,high=1,size=(500,env.action_space.n))
 total_reward=0
 rewardlist=[]
